@@ -1,0 +1,104 @@
+/* Add borders and increase width for sections */
+.container {
+    border: 2px solid #ccc; /* Add border */
+    padding: 20px; /* Add padding for space around content */
+}
+
+/* Increase width for larger screens */
+@media (min-width: 768px) {
+    .container {
+        max-width: 900px; /* Adjust max-width to your preference */
+    }
+}
+
+/* Style the "Back to Top" link */
+a[href="#top"] {
+    display: inline-block;
+    margin-top: 10px; /* Add some space above the link */
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a[href="#top"]:hover {
+    background-color: #0056b3;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+.navbar {
+    border: 6px solid #000; /* Set a 2-pixel solid black border */
+    padding: 10px 20px; /* Increase padding for more space inside the navbar */
+    font-size: 24px;
+   
+    margin: 0;
+    background-color: grey;
+}
+
+
+.navbar-brand{
+    font-size: 27px;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+
+
+
+/* Set background color and width for dropdown menu */
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: #f8f9fa; /* Set the desired background color */
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-nav {
+        display: block; /* Display menu items in a block layout */
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-item {
+        margin: 5px 0; /* Add some vertical spacing between menu items */
+    }
+}
+
+
+
+
+/* Show menu in mobile view */
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: #f8f9fa;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-nav {
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-item {
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #fff; /* Background color of the boxes */
+        border: 2px solid #ccc; /* Border color and width */
+        border-radius: 10px; /* Rounded corners */
+    }
+}
+
+
+
+
+
